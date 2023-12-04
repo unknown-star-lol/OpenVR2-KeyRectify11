@@ -1,0 +1,24 @@
+{
+  "bindings": {
+    "/actions/keys": {
+      "chords": [],
+      "haptics": [],
+      "poses": [],
+      "skeleton": [],
+      "sources": [
+        {
+          "path": "/user/camera/input/power",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/keys/in/keyt1"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "controller_type": "vive_tracker_camera",
+  "description": "Default OpenVR2Key input configuration for Vive Tracker Camera",
+  "name": "Camera Tracker"
+}
